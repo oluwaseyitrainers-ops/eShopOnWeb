@@ -11,14 +11,14 @@ resources:
       trigger: none
 
 variables:
-  location: 'centralus'
+  location: 'eastus'
   templateFile: 'infra/aci.bicep'
-  subscriptionid: 'YOUR-SUBSCRIPTION-ID'
+  subscriptionid: '71008abe-1a1d-46f5-9d53-3bb2c96d6a6d'
   azureserviceconnection: 'azure subs'
-  webappname: 'az400eshop-NAME'
+  webappname: 'az400eshop-seyidemo005'
   acr-login-server: 'YOUR-ACR.azurecr.io'
-  acr-username: 'ACR-USERNAME'
-  resource-group: 'AZ400-EWebShop-NAME' 
+  acr-username: 'ACR-demouser'
+  resource-group: 'rg-eshoponweb-seyi005' 
 
 
 stages:
